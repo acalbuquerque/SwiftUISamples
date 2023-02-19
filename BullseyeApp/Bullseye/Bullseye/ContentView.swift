@@ -18,10 +18,16 @@ struct ContentView: View {
                     .font(.footnote)
                     .kerning(2.0)
                 Text("89")
+                    .bold()
+                    .font(.title)
                 HStack {
                     Text("1")
+                        .bold()
+                        .font(.title2)
                     Slider(value: .constant(50), in: 1.0...100.0)
                     Text("100")
+                        .bold()
+                        .font(.title2)
                 }
                 Button("Hit me") {
                     print("hit")
