@@ -18,8 +18,9 @@ struct ContentView: View {
                     .font(.footnote)
                     .kerning(2.0)
                 Text("89")
-                    .bold()
-                    .font(.title)
+                    .kerning(-1.0)
+                    .fontWeight(.black)
+                    .font(.largeTitle)
                 HStack {
                     Text("1")
                         .bold()
